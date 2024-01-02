@@ -10,6 +10,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <style>
+      img {
+        width: 100px;
+      }
+    </style>
   </head>
   <body>
     <h1 class="text-center"><u>Showing API data into table</u></h1>
@@ -25,16 +30,7 @@
             <th scope="col">Image</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>no</td>
-            <td>titl</td>
-            <td>@des</td>
-            <td>@pric</td>
-            <td>@rat</td>
-            <td>@img</td>
-          </tr>
-        </tbody>
+        <tbody id="table_body"></tbody>
       </table>
     </div>
     <script src="script.js"></script>
